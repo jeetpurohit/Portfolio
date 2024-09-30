@@ -1,5 +1,5 @@
 import { useContext, useEffect } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
@@ -17,6 +17,8 @@ import { settings } from "./utils/utils";
 
 function App() {
   const { theme } = useContext(ThemeContext);
+  const location = useLocation();
+
 
   useEffect(() => {
     // Dynamically apply theme using CSS variables
@@ -24,9 +26,11 @@ function App() {
     document.documentElement.style.setProperty('--text-color', theme.text);
   }, [theme]);
 
+  const isSplashOrHome = location.pathname === "/" || location.pathname === "/splash";
+
   return (
-    <BrowserRouter basename="/">
-      {true && <Header />}
+    <>
+      {!isSplashOrHome && <Header />}
       <Routes>
         <Route path="/" element={settings.isSplash ? <Splash /> : <Home />} />
         <Route path="/home" element={<Home />} />
@@ -37,10 +41,10 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
-      {true && <Footer />}
-      {true && <TopButton />}
-      <ThemeSettingButton />
-    </BrowserRouter>
+      {!isSplashOrHome && <Footer />}
+      {!isSplashOrHome && <TopButton />}
+      {!isSplashOrHome && <ThemeSettingButton />}
+    </>
   )
 }
 
