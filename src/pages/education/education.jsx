@@ -108,7 +108,7 @@ const Education = () => {
                             transform: "scale(0.9)",
                             borderRadius: "50%"
                           }}
-                          src={`../../../public/assets/images/${degree.logo_path}`}
+                          src={`/assets/images/${degree.logo_path}`}
                           alt={degree.alt_name}
                         />
                       </div>

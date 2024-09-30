@@ -33,7 +33,7 @@ const Contact = () => {
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <img
-                src={`../../../public/assets/images/${ContactData["profile_image_path"]}`}
+                src={`/assets/images/${ContactData["profile_image_path"]}`}
                 alt={ContactData["title"]}
               />
             </div>
