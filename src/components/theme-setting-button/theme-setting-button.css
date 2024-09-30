@@ -1,0 +1,65 @@
+.color-switcher {
+  position: fixed;
+  top: 100px;
+  right: -200px;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 1000;
+  transition: right 0.2s ease-in-out;
+}
+
+.active {
+  right: 0;
+}
+
+.color-switcher h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.switcher-btn {
+  position: absolute;
+  top: 0;
+  left: -63px;
+  background: #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 35px;
+  border-radius: 999em 40px 40px 999em;
+
+  i {
+    animation: spin 10s linear infinite;
+  }
+}
+
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.theme-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.theme-button {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
