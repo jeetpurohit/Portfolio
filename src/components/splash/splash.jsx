@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import LoaderLogo from "../../components/Loader/loader-logo";
+import LoaderLogo from "../../components/loader/loader-logo";
 import ThemeContext from "../../context/ThemeContext";
 import "./splash.css";
 
