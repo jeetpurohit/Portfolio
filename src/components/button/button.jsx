@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DownloadIcon from "../../assets/images/Download-icon";
+import DownloadIcon from "../../../public/assets/images/Download-icon";
 import "./button.css";
 
 export default function Button({ text, className, href, newTab, theme, onClick }) {

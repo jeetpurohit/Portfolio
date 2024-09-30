@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useContext, useState } from "react";
-import ExperienceImg from "../../assets/images/ExperienceImg";
+import ExperienceImg from "../../../public/assets/images/ExperienceImg";
 import ThemeContext from "../../context/ThemeContext";
 import { experience } from "../../data/portfolio";
 import "./experience.css";
@@ -103,7 +103,7 @@ const Experience = () => {
                     animate={activeIndex === index ? { opacity: 1, x: 0 } : { opacity: 0, x: -40 }} // Animate only when the accordion is opened
                     transition={{ duration: 0.5 }} // Transition duration
                   >
-                    <img className="experience-card-logo" src={`src/assets/img/${experienceItem["logo_path"]}`} alt="" />
+                    <img className="experience-card-logo" src={`../../../public/assets/images/${experienceItem["logo_path"]}`} alt="" />
                   </motion.div>
 
                   {/* Stepper for experience timeline */}

@@ -1,11 +1,11 @@
 import { motion, useInView } from "framer-motion";
 import { useContext, useRef } from "react";
-import CloudInfraImg from "../../assets/images/CloudInfraImg";
-import DataScienceImg from "../../assets/images/DataScienceImg";
-import DesignImg from "../../assets/images/DesignImg";
-import FeelingProud from "../../assets/images/FeelingProud";
-import FullStackImg from "../../assets/images/FullStackImg";
-import MyPdf from "../../assets/pdf/Vivek_Vaishnani_Resume.pdf";
+import CloudInfraImg from "../../../public/assets/images/CloudInfraImg";
+import DataScienceImg from "../../../public/assets/images/DataScienceImg";
+import DesignImg from "../../../public/assets/images/DesignImg";
+import FeelingProud from "../../../public/assets/images/FeelingProud";
+import FullStackImg from "../../../public/assets/images/FullStackImg";
+import MyPdf from "../../../public/assets/pdf/Vivek_Vaishnani_Resume.pdf";
 import Button from "../../components/button/button";
 import ThemeContext from "../../context/ThemeContext";
 import { greeting, skills, socialMediaLinks } from "../../data/portfolio";

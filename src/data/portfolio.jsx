@@ -8,7 +8,7 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/16fuPOkiWBLghLh6YZ8fEMzR1LIjVW2Ub/view?usp=sharing",
-  portfolio_repository: "src/assets/Vivek_Vaishnani_Resume.pdf",
+  portfolio_repository: "public/assets/Vivek_Vaishnani_Resume.pdf",
   githubProfile: "https://github.com/VivekVaishnanai07",
 };
 

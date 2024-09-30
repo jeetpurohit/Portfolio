@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import React, { useContext, useRef } from "react";
-import AddressImg from "../../assets/images/AddressImg";
+import AddressImg from "../../../public/assets/images/AddressImg";
 import Button from "../../components/button/button";
 import ThemeContext from "../../context/ThemeContext";
 import { contactPageData, greeting, socialMediaLinks } from "../../data/portfolio";
@@ -33,7 +33,7 @@ const Contact = () => {
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <img
-                src={`src/assets/images/${ContactData["profile_image_path"]}`}
+                src={`../../../public/assets/images/${ContactData["profile_image_path"]}`}
                 alt={ContactData["title"]}
               />
             </div>

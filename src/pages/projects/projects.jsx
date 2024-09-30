@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useContext } from "react";
-import ProjectsImg from "../../assets/images/ProjectsImg";
+import ProjectsImg from "../../../public/assets/images/ProjectsImg";
 import Button from "../../components/button/button";
 import ThemeContext from "../../context/ThemeContext";
 import { greeting, projectsHeader, publications, publicationsHeader } from "../../data/portfolio";

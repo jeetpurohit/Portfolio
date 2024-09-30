@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useContext, useRef } from "react";
-import EducationImg from "../../assets/images/EducationImg";
+import EducationImg from "../../../public/assets/images/EducationImg";
 import ThemeContext from "../../context/ThemeContext";
 import { mySkills, competitiveSites, degrees } from "../../data/portfolio";
 import "./education.css";
@@ -108,7 +108,7 @@ const Education = () => {
                             transform: "scale(0.9)",
                             borderRadius: "50%"
                           }}
-                          src={`src/assets/img/${degree.logo_path}`}
+                          src={`../../../public/assets/images/${degree.logo_path}`}
                           alt={degree.alt_name}
                         />
                       </div>
