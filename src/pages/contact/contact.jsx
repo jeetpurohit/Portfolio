@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import React, { useContext, useRef } from "react";
 import AddressImg from "../../assets/images/AddressImg";
-import Button from "../../components/button/Button";
+import Button from "../../components/button/button";
 import ThemeContext from "../../context/ThemeContext";
 import { contactPageData, greeting, socialMediaLinks } from "../../data/portfolio";
 import "./contact.css";
