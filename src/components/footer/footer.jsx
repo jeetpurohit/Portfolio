@@ -2,7 +2,7 @@ import { motion } from "framer-motion"; // Import motion
 import React, { useContext } from "react";
 import ThemeContext from "../../context/ThemeContext";
 import { greeting } from "../../data/portfolio";
-import "./Footer.css";
+import "./footer.css";
 
 export default function Footer() {
   const { theme } = useContext(ThemeContext);
