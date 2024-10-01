@@ -3,7 +3,6 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import LogoLoader from './components/loader/loader-logo';
 import Splash from "./components/splash/splash";
 import ThemeSettingButton from "./components/theme-setting-button/theme-setting-button";
 import TopButton from './components/top-button/top-button';
@@ -26,6 +25,7 @@ function App() {
     // Dynamically apply theme using CSS variables
     document.documentElement.style.setProperty('--body-bg', theme.body);
     document.documentElement.style.setProperty('--text-color', theme.text);
+    document.documentElement.style.setProperty('--loader-color', theme.text);
   }, [theme]);
 
   const isSplashOrHome = location.pathname === "/" || location.pathname === "/splash";
@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       {!isSplashOrHome && <Header />}
-      <Suspense fallback={<LogoLoader />}>
+      <Suspense fallback={<span class="data-loader"></span>}>
         <Routes>
           <Route path="/" element={settings.isSplash ? <Splash /> : <Home />} />
           <Route path="/home" element={<Home />} />

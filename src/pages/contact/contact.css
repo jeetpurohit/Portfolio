@@ -3,12 +3,13 @@
 }
 
 .basic-contact {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .contact-heading-div {
   display: flex;
+  align-items: center;
 }
 
 .address-heading-div {
@@ -42,7 +43,7 @@
 .contact-heading-img-div>* {
   max-width: 100%;
   border-radius: 50%;
-  height: auto;
+  height: 500px;
 }
 
 .contact-heading-text {
@@ -91,6 +92,15 @@
 }
 
 @media (max-width: 768px) {
+  .basic-contact {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .contact-heading-img-div>* {
+    height: auto;
+  }
+
   .contact-heading-img-div {
     padding: 16px;
   }
