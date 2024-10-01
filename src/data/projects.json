@@ -23,10 +23,6 @@
         {
           "name": "React",
           "iconifyClass": "logos-react"
-        },
-        {
-          "name": "Material UI",
-          "iconifyClass": "logo-material-ui"
         }
       ]
     },
@@ -71,10 +67,6 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Material UI",
-          "iconifyClass": "logo-material-ui"
         }
       ]
     },

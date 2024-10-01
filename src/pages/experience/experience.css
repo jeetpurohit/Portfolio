@@ -359,9 +359,11 @@
 
 @media (max-width: 768px) {
   .experience-card {
-    /* margin-bottom:10px; */
+    margin-bottom: 0px;
+    margin-left: 0px;
     flex-direction: column;
     text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   .arrow-left {

@@ -201,6 +201,7 @@
 @media (max-width: 768px) {
   .degree-card {
     flex-direction: column;
+    margin-top: 16px;
   }
 
   .body-header {
@@ -229,6 +230,8 @@
 
   .card-body {
     width: 100% !important;
+    margin: auto;
+    margin-top: 16px;
   }
 
   .card-title {

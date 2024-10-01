@@ -3,8 +3,8 @@
 }
 
 .basic-contact {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .contact-heading-div {
@@ -91,6 +91,10 @@
 }
 
 @media (max-width: 768px) {
+  .contact-heading-img-div {
+    padding: 16px;
+  }
+
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;
@@ -101,8 +105,9 @@
   }
 
   .address-heading-div {
-    flex-direction: column;
-    margin-top: 60px;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .address-heading-text-div {

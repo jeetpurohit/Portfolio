@@ -139,7 +139,7 @@ const Experience = () => {
                   >
                     <div className="arrow-left" style={{ borderRight: `10px solid ${theme.body}` }}></div>
                     <div className="experience-card" style={{ background: `${theme.body}` }}>
-                      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+                      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
                         <div>
                           <h3 className="experience-card-title" style={{ color: theme.text }}>
                             {experienceItem["title"]}
