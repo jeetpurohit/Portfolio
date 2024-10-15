@@ -1,7 +1,3 @@
-<p align="center"> 
-    <img src="/public/assets/images/masterPortfolioThemes.png" align="center" height="150"></img>
-</p>
-
 :star: Star us on GitHub — it helps!
 
 # Sections 📚
