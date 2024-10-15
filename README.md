@@ -1,5 +1,5 @@
 <p align="center"> 
-    <img src="/public/assets/images/masterportfolio-banner-light.png" align="center" height="150"></img>
+    <img src="/public/assets/images/masterPortfolioThemes.png" align="center" height="150"></img>
 </p>
 
 :star: Star us on GitHub — it helps!
@@ -30,8 +30,9 @@ To view a live example, **[click here](https://vivekvaishnani.vercel.app/)**
   npm install
   ```
 - Now the project is ready to use
-- You can check it using `npm start`, it will open the website locally on your browser.
-- credential for check live demo 
+- You can check it using `npm run dev`, it will open the website locally on your browser.
 
-Username:- vivek@gmail.com
+# Credential
+
+Username:- vivek@gmail.com <br/>
 Password:- vivek@4243
