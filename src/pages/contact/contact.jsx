@@ -32,10 +32,6 @@ const Contact = () => {
         >
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
-              <img
-                src={`/assets/images/${ContactData["profile_image_path"]}`}
-                alt={ContactData["title"]}
-              />
             </div>
             <div className="contact-heading-text-div">
               <h1 className="contact-heading-text" style={{ color: theme.text }}>

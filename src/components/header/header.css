@@ -29,7 +29,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
+  background-color: #A6E1FA;
 }
 
 .header .logo {
@@ -65,7 +65,7 @@
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  /* float: right; */
   padding: 28px 20px;
   position: relative;
   user-select: none;

@@ -43,11 +43,9 @@ const Header = () => {
               >
                 {path === item.path ? (
                   <>
-                    <span style={{ color: theme.text }}>&#123;</span>
                     <span className="logo-name" style={{ color: theme.text, fontFamily: 'Google Sans Regular' }}>
                       {item.name}
                     </span>
-                    <span style={{ color: theme.text }}>&#125;</span>
                   </>
                 ) : item.name}
               </NavLink>

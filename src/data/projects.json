@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "dpl-frontend",
-      "createdAt": "2024-04-13T04:18:19Z",
-      "url": "https://github.com/VivekVaishnanai07/dpl_frontend",
-      "description": "One team handles the frontend of the gaming site, focusing on creating features for team predictions.",
+      "id": "R_kgDOG_vYHA",
+      "name": "Vinus-Creatives",
+      "createdAt": "2024-04-04T04:18:19Z",
+      "url": "https://github.com/jeetpurohit/Vinus-Creatives",
+      "description": "The Website is Designed in React JS for a seamless browsing andbuying experience, making it easy for users to find and purchasefurniture.",
       "isFork": false,
       "languages": [
         {
@@ -28,32 +28,36 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "dpl-backend",
-      "createdAt": "2024-04-13T04:18:19Z",
-      "url": "https://github.com/VivekVaishnanai07/dpl_backend",
-      "description": "One team manages the backend of the gaming site, ensuring seamless functionality for team predictions.",
+      "name": "API-task",
+      "createdAt": "2024-10-10T04:18:19Z",
+      "url": "https://github.com/jeetpurohit/API-task",
+      "description": "A React-based News-app utilizing APIs for news streaming.",
       "isFork": false,
       "languages": [
         {
-          "name": "Node JS",
-          "iconifyClass": "logos:nodejs-icon"
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         },
         {
-          "name": "Express JS",
-          "iconifyClass": "simple-icons:express"
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         },
         {
-          "name": "My SQL",
-          "iconifyClass": "logos-mysql"
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
         }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "unstop-demo",
-      "createdAt": "2023-08-24T16:26:54Z",
-      "url": "https://github.com/vivek1919/masterPortfolio",
-      "description": "🔥 This site is dedicated to advancing CSS skills, converting Figma designs to React components, and building single-page websites.",
+      "name": "Crypto-api",
+      "createdAt": "2024-09-05T16:26:54Z",
+      "url": "https://github.com/jeetpurohit/Crypto",
+      "description": "🔥 This project is crypto-api, its data fatch through API and shows all details of crypto currency. this project building in single-page websites.",
       "isFork": false,
       "languages": [
         {
@@ -67,37 +71,45 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
         }
       ]
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "nodejs-crud",
-      "createdAt": "2023-09-07T14:50:20Z",
-      "url": "https://github.com/vivek1919/react-awesome-shapes",
-      "description": "🌀 A Node.js-based site focused on creating, reading, updating, and deleting (CRUD) operations for managing data efficiently.",
+      "name": "Spotifyclone",
+      "createdAt": "2024-06-07T14:50:20Z",
+      "url": "https://github.com/jeetpurohit/Spotifyclone",
+      "description": "🌀 A React-based Spotify clone utilizing APIs for music streaming.",
       "isFork": false,
       "languages": [
         {
-          "name": "Node JS",
-          "iconifyClass": "logos:nodejs-icon"
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         },
         {
-          "name": "Express JS",
-          "iconifyClass": "simple-icons:express"
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         },
         {
-          "name": "My SQL",
-          "iconifyClass": "logos-mysql"
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
         }
       ]
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "angular-crud",
-      "createdAt": "2022-11-28T17:56:07Z",
-      "url": "https://github.com/vivek1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ An Angular-based application designed to perform create, read, update, and delete (CRUD) operations for seamless data management.",
+      "name": "API-Task",
+      "createdAt": "2024-05-28T17:56:07Z",
+      "url": "https://github.com/jeetpurohit/Task",
+      "description": "⚙️A React-based Movie-App utilizing APIs for movie streaming.",
       "isFork": false,
       "languages": [
         {
@@ -113,17 +125,17 @@
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "Angular",
-          "iconifyClass": "logos:angular-icon"
+          "name": "React",
+          "iconifyClass": "logos-react"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-crud",
-      "createdAt": "2022-08-01T16:26:54Z",
-      "url": "https://github.com/vivek1919/react-liquidswipe",
-      "description": "🚀 A React-based application built for performing create, read, update, and delete (CRUD) operations with efficient data handling.",
+      "id": "R_kgDOJWL0-g",
+      "name": "demo-website",
+      "createdAt": "2023-11-14T04:18:19Z",
+      "url": "https://github.com/jeetpurohit/Demo-Website",
+      "description": "created a Simple portfolio website using React that showcasesvarious projects, including an e-commerce website and other webapplications. This site highlights my skills and work in webdevelopment with a clean, user-friendly interface.",
       "isFork": false,
       "languages": [
         {
@@ -139,7 +151,7 @@
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "React JS",
+          "name": "React",
           "iconifyClass": "logos-react"
         }
       ]

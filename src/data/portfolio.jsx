@@ -1,53 +1,35 @@
 /* Change this file to get your personal Porfolio */
 //Home Page
 const greeting = {
-  title: "Vivek Vaishnani",
-  logo_name: "VivekVaishnani",
+  title: "Jeet Purohit ",
+  logo_name: "JeetPurohit ",
   nickname: "Front-End Developer",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/16fuPOkiWBLghLh6YZ8fEMzR1LIjVW2Ub/view?usp=sharing",
-  portfolio_repository: "public/assets/Vivek_Vaishnani_Resume.pdf",
-  githubProfile: "https://github.com/VivekVaishnanai07",
+    "https://drive.google.com/file/d/1elc4ZSBAn1Ld3zZhe2avNr2VcTzS3-7e/view?usp=sharing",
+  portfolio_repository: "public/assets/Jeet_Purohit_Resume.pdf",
+  githubProfile: "https://github.com/jeetpurohit",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/VivekVaishnanai07",
+    link: "https://github.com/jeetpurohit",
     fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/vivek-vaishnani-0a7076189/",
+    link: "https://www.linkedin.com/in/jeet-purohit-057b42261/",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
   {
-    name: "YouTube",
-    link: "https://www.youtube.com/@pjgaming5393",
-    fontAwesomeIcon: "fa-youtube",
-    backgroundColor: "#FF0000",
-  },
-  {
     name: "Gmail",
-    link: "mailto:vivekvaishnani5393@gmail.com",
+    link: "mailto:jeetpurohit58@gmail.com",
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/profile.php?id=100009717276696&mibextid=JRoKGi",
-    fontAwesomeIcon: "fa-facebook-f",
-    backgroundColor: "#1877F2",
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/vivek__vaishnani/",
-    fontAwesomeIcon: "fa-instagram",
-    backgroundColor: "#E4405F",
   },
 ];
 
@@ -245,7 +227,7 @@ const degrees = {
       duration: "2020 - 2023",
       descriptions: [
         "⚡ Developed a strong understanding of advanced topics such as Operating Systems, Distributed Systems, Artificial Intelligence, and Machine Learning, enabling me to build scalable and efficient solutions.",
-        "⚡ Worked on large-scale projects including a capstone project on full-stack web development using modern technologies like React, Node.js, and MongoDB.",
+        "⚡ Worked on large-scale projects on full-stack web development using modern technologies like React, Node.js, and MongoDB.",
         "⚡ Gained in-depth knowledge of database systems, implementing complex SQL queries, optimizing databases, and working with NoSQL databases such as MongoDB and Cassandra.",
       ],
       website_link: "https://dsuni.ac.in/",
@@ -262,19 +244,6 @@ const degrees = {
         "⚡ Actively participated in technical workshops and seminars on emerging technologies like IoT, cybersecurity, and cloud computing, expanding knowledge of modern computing trends.",
       ],
       website_link: "https://dsuni.ac.in/",
-    },
-    {
-      title: "DELTA Science School - Upleta",
-      subtitle: "Class X - GSEB",
-      logo_path: "gseb-logo.png",
-      alt_name: "DELTA Science School",
-      duration: "2016 - 2017",
-      descriptions: [
-        "⚡ Completed Class X under the Gujarat Secondary Education Board (GSEB) with a focus on core subjects including Mathematics, Science, and Social Studies.",
-        "⚡ Excelled in practical science projects, which enhanced my understanding of real-world applications of scientific concepts.",
-        "⚡ Actively participated in various inter-school competitions such as debates, quizzes, and sports events, developing leadership and teamwork skills.",
-      ],
-      website_link: "https://www.gseb.org/",
     },
   ],
 };
@@ -362,22 +331,6 @@ const mySkills = {
       color_code: "#339933",
     },
     {
-      title: "Express.js",
-      subtitle: "- Web Application Framework",
-      fontAwesomeClassname: "simple-icons:express",
-      skill_link: "https://expressjs.com/",
-      alt_name: "Express.js",
-      color_code: "#000000",
-    },
-    {
-      title: "MySQL",
-      subtitle: "- Relational Database",
-      fontAwesomeClassname: "simple-icons:mysql",
-      skill_link: "https://www.mysql.com/",
-      alt_name: "MySQL",
-      color_code: "#4479A1",
-    },
-    {
       title: "React Native",
       subtitle: "- Mobile Framework",
       fontAwesomeClassname: "simple-icons:react",
@@ -433,11 +386,11 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "React JS & Angular Junior Developer",
-          company: "DeltaFixes Technologies",
-          company_url: "https://deltafixes.com/",
+          title: "React JS Developer",
+          company: "Tech Avidus",
+          company_url: "https://www.techavidus.com/",
           logo_path: "deltafixes.jfif",
-          duration: "Jun 2022 - Present",
+          duration: "Jan 2024 - Present",
           location: "Ahmedabad, Gujarat, India",
           description:
             "Contributing to front-end development projects using React JS and Angular, collaborating with cross-functional teams to deliver responsive and scalable web applications. Focused on enhancing user experience and implementing best coding practices.",
@@ -450,13 +403,12 @@ const experience = {
       experiences: [
         {
           title: "Intern",
-          company: "DeltaFixes Technologies",
-          company_url: "https://deltafixes.com/",
-          logo_path: "deltafixes.jfif",
-          duration: "May 2022 - Jun 2022",
+          company: "Glysis Software",
+          company_url: "https://glysissoftware.com/",
+          duration: "Jan 2023 - Dec 2023",
           location: "Ahmedabad, Gujarat, India",
           description:
-            "Assisted in front-end development with React JS and Angular, working closely with senior developers to build responsive web applications. Gained hands-on experience in coding, debugging, and optimizing user interfaces.",
+            "Assisted in front-end development with React JS, working closely with senior developers to build responsive web applications. Gained hands-on experience in coding, debugging, and optimizing user interfaces.",
           color: "#000000",
         }
       ],
@@ -473,34 +425,32 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description: "Here are some of my published sites and demos.",
-  avatar_image_path: "projects_image.svg",
+  
 };
 
 const publications = {
   data: [
-    {
-      id: "dpl-frontend",
-      name: "DPL 11",
-      createdAt: "2024-04-13T00:00:00Z",
-      description: "Frontend and backend for team predictions.",
-      url: "https://dpl11.vercel.app/",
-    },
-    {
-      id: "unstop",
-      name: "Unstop Demo",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Elevate CSS, convert Figma, build React SPAs.",
-      url: "https://unstopdemo.netlify.app/",
-    },
-    {
-      id: "react-crud",
-      name: "React CRUD",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "React app for efficient CRUD operations.",
-      url: "https://reactcruddemo.netlify.app/",
-    },
+    // {
+    //   id: "dpl-frontend",
+    //   name: "DPL 11",
+    //   createdAt: "2024-04-13T00:00:00Z",
+    //   description: "Frontend and backend for team predictions.",
+    //   url: "https://dpl11.vercel.app/",
+    // },
+    // {
+    //   id: "unstop",
+    //   name: "Unstop Demo",
+    //   createdAt: "2023-09-19T00:00:00Z",
+    //   description: "Elevate CSS, convert Figma, build React SPAs.",
+    //   url: "https://unstopdemo.netlify.app/",
+    // },
+    // {
+    //   id: "react-crud",
+    //   name: "React CRUD",
+    //   createdAt: "2023-10-12T00:00:00Z",
+    //   description: "React app for efficient CRUD operations.",
+    //   url: "https://reactcruddemo.netlify.app/",
+    // },
   ],
 };
 
@@ -514,18 +464,18 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Sai Devaliya, Bhanvad, Gujarat, India 360510",
-    locality: "Bhanavad",
-    country: "Gujarat",
-    region: "Manavadar",
+    subtitle: "Gandhinagar, Gujarat, India 360510",
+    locality: "Gandhinagar",
+    country: "India",
+    region: "Gandhinagar",
     postalCode: "360510",
-    streetAddress: "Sai Devaliya",
+    // streetAddress: "Sai Devaliya",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/sYr4Agkqfb6Xv4D56",
+    location_map_link: "https://www.google.com/maps/place/Gandhinagar,",
   },
   phoneSection: {
     title: "Contact Me",
-    subtitle: "9725533801",
+    subtitle: "9662834999",
   },
 };
 

@@ -5,7 +5,7 @@ import DataScienceImg from "../../../public/assets/images/DataScienceImg";
 import DesignImg from "../../../public/assets/images/DesignImg";
 import FeelingProud from "../../../public/assets/images/FeelingProud";
 import FullStackImg from "../../../public/assets/images/FullStackImg";
-import MyPdf from "../../../public/assets/pdf/Vivek_Vaishnani_Resume.pdf";
+import MyPdf from "../../../public/assets/pdf/Jeet_Purohit_Resume.pdf";
 import Button from "../../components/button/button";
 import ThemeContext from "../../context/ThemeContext";
 import { greeting, skills, socialMediaLinks } from "../../data/portfolio";
@@ -97,7 +97,7 @@ const Home = () => {
                   onClick={() => {
                     const link = document.createElement("a");
                     link.href = MyPdf;
-                    link.download = "Vivek_Vaishnani_Resume.pdf";
+                    link.download = "Jeet_Purohit_Resume.pdf";
                     link.click();
                   }}
                 />

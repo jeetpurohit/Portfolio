@@ -97,14 +97,6 @@ const Experience = () => {
               {section.experiences.map((experienceItem, experienceIndex) => (
                 <div className="experience-list-item" style={{ marginTop: experienceIndex === 0 ? 30 : 50 }} key={experienceIndex + 1}>
                   {/* Logo with motion animation */}
-                  <motion.div
-                    className="experience-card-logo-div"
-                    initial={{ opacity: 0, x: -40 }} // Initial state for animation
-                    animate={activeIndex === index ? { opacity: 1, x: 0 } : { opacity: 0, x: -40 }} // Animate only when the accordion is opened
-                    transition={{ duration: 0.5 }} // Transition duration
-                  >
-                    <img className="experience-card-logo" src={`/assets/images/${experienceItem["logo_path"]}`} alt="" />
-                  </motion.div>
 
                   {/* Stepper for experience timeline */}
                   <div className="experience-card-stepper">

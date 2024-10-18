@@ -21,7 +21,7 @@ export default function Footer() {
         transition={{ duration: 2, ease: "easeOut" }}
       >
         <p className="footer-text" style={{ color: theme.secondaryText }}>
-          Made with <span role="img">❤️</span> by {greeting.title}
+          Made<span role="img"></span> by {greeting.title}
         </p>
       </motion.div>
     </div>

@@ -4,7 +4,6 @@ import './App.css';
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import Splash from "./components/splash/splash";
-import ThemeSettingButton from "./components/theme-setting-button/theme-setting-button";
 import TopButton from './components/top-button/top-button';
 import ThemeContext from "./context/ThemeContext";
 import { settings } from "./utils/utils";
@@ -18,7 +17,7 @@ const Home = lazy(() => import('./pages/home/home'));
 const Projects = lazy(() => import('./pages/projects/projects'));
 
 function App() {
-  const { theme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext); 
   const location = useLocation();
 
   useEffect(() => {
@@ -47,7 +46,6 @@ function App() {
       </Suspense>
       {!isSplashOrHome && <Footer />}
       {!isSplashOrHome && <TopButton />}
-      {!isSplashOrHome && <ThemeSettingButton />}
     </>
   )
 }

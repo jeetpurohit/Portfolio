@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useContext } from "react";
 import ProjectsImg from "../../../public/assets/images/ProjectsImg";
-import Button from "../../components/button/button";
 import ThemeContext from "../../context/ThemeContext";
 import { greeting, projectsHeader, publications, publicationsHeader } from "../../data/portfolio";
 import ProjectsData from "../../data/projects.json";
@@ -118,14 +117,6 @@ const Projects = () => {
           </motion.div>
         ))}
       </motion.div>
-
-      <Button
-        text="More Projects"
-        className="project-button"
-        href={greeting.githubProfile}
-        newTab={true}
-        theme={theme}
-      />
 
       {/* Publications */}
       <motion.div
